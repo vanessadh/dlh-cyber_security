@@ -1,0 +1,17 @@
+# Nmap 7.99 scan initiated Mon Oct 19 10:36:46 2026 as: /usr/lib/nmap/nmap --script http-vuln-cve2017-5638 -oN vuln_scan_results.txt scanme.nmap.org
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (2.9s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+80/tcp   open     http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+514/tcp  filtered shell
+646/tcp  filtered ldp
+9929/tcp open     nping-echo
+
+# Nmap done at Mon Oct 19 10:49:12 2026 -- 1 IP address (1 host up) scanned in 746.65 seconds
